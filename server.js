@@ -26,4 +26,3 @@ db.on('connected', () => {
 });
 
 server.listen(3000); //normal http traffic
-

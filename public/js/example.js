@@ -1,7 +1,7 @@
 (async () => {
   'use strict';
 
-  const apiURL = './graphql';
+  const apiURL = 'http://localhost:3000/graphql';
 
   // html elements
   const mapSection = document.getElementById('map');
@@ -11,6 +11,15 @@
   const address = document.getElementById('address');
   const info = document.getElementById('info');
   const navbtn = document.getElementById('btn');
+
+  window.onload = () => {
+    'use strict';
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+          .register('../sw.js');
+    }
+  };
 
   // functions to open/close panels
   const closeLow = () => {
