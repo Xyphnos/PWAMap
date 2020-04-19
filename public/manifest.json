@@ -14,7 +14,7 @@
     }
     ],
   "lang": "en-US",
-  "start_url": "/localhost:3000",
+  "start_url": "/~arttuvs/PWAMap/",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"

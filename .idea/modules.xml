@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/chargemap-gql-student.iml" filepath="$PROJECT_DIR$/.idea/chargemap-gql-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PWAMap.iml" filepath="$PROJECT_DIR$/.idea/PWAMap.iml" />
     </modules>
   </component>
 </project>
